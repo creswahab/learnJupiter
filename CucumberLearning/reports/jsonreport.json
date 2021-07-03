@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Google Search Scenario dryRun",
+        "description": "",
+        "id": "test-google-search-with-dryrun;google-search-scenario-dryrun",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7801926400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is navigating to google.co.in",
+            "match": {
+              "location": "CucumberOptions.user_is_navigating_to_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 108555500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is entering the search term \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 34
+                }
+              ],
+              "location": "CucumberOptions.user_is_entering_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2175704900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "entering return key",
+            "match": {
+              "location": "CucumberOptions.entering_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89837900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the search result",
+            "match": {
+              "location": "CucumberOptions.verify_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "test Google Search with dryRun",
+    "description": "",
+    "id": "test-google-search-with-dryrun",
+    "keyword": "Feature",
+    "uri": "featureFiles/CucumberOptions.feature"
+  }
+]

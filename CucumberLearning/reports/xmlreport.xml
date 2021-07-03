@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.176025">
+<testcase classname="test Google Search with dryRun" name="Google Search Scenario dryRun" time="10.176025">
+<system-out><![CDATA[Given user is navigating to google.co.in....................................passed
+When user is entering the search term "India"...............................passed
+And entering return key.....................................................passed
+Then Verify the search result...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
